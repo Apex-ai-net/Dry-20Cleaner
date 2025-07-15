@@ -75,9 +75,11 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <Button variant="outline" className="mr-2">
-                Customer Login
-              </Button>
+              <Link to="/dashboard">
+                <Button variant="outline" className="mr-2">
+                  Customer Login
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
