@@ -356,7 +356,7 @@ export default function ImprovedDashboard() {
   const renderScheduleContent = () => (
     <div>
       <div className="mb-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">
+        <h2 className="text-3xl font-bold text-brand-800 mb-2">
           Schedule Pickup
         </h2>
         <p className="text-gray-600">Schedule a new dry cleaning pickup</p>
