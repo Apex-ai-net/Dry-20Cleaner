@@ -142,7 +142,7 @@ export default function Index() {
             <div className="relative">
               <div className="bg-white rounded-2xl shadow-2xl p-8">
                 <img
-                  src="/placeholder.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F0cb748d1794f46448d8f1fa3f49fe50f%2Fdaf4bd06c9eb4a5c90d07fd827edcc0d?format=webp&width=800"
                   alt="Professional dry cleaning service"
                   className="w-full h-96 object-cover rounded-lg"
                 />
