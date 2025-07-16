@@ -769,7 +769,7 @@ export default function ImprovedDashboard() {
                     to="/"
                     className="focus:outline-none focus:ring-2 focus:ring-brand-600 rounded"
                   >
-                    Polo Cleaners
+                    CleanCare Express
                   </Link>
                 </h1>
                 <span className="ml-4 text-gray-500">Customer Dashboard</span>
