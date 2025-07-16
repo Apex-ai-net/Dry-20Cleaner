@@ -290,7 +290,7 @@ export default function ImprovedHomepage() {
                     alt="Professional dry cleaning service showing a woman in white uniform standing next to clothing racks with clean garments in a modern green-walled facility"
                     className="w-full h-96 object-cover rounded-lg"
                     loading="eager"
-                    fetchPriority="high"
+                    fetchpriority="high"
                   />
                   <div
                     className="absolute -top-4 -right-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold"
