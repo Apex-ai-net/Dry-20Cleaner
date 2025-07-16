@@ -544,7 +544,7 @@ export default function ImprovedHomepage() {
                 },
                 {
                   quote:
-                    "I've been using Polo Cleaners for over 2 years. Their attention to detail and customer service is outstanding. Highly recommended!",
+                    "I've been using CleanCare Express for over 2 years. Their attention to detail and customer service is outstanding. Highly recommended!",
                   name: "Michael Chen",
                   role: "Business Owner",
                 },
