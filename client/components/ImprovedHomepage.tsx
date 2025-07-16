@@ -570,7 +570,7 @@ export default function ImprovedHomepage() {
                         />
                       ))}
                     </div>
-                    <blockquote className="text-gray-700 mb-4">
+                    <blockquote className="text-brand-700 mb-4">
                       "{testimonial.quote}"
                     </blockquote>
                     <div className="flex items-center">
@@ -602,14 +602,14 @@ export default function ImprovedHomepage() {
                 <h2 className="text-4xl font-bold text-brand-800 mb-6">
                   About Polo Cleaners
                 </h2>
-                <p className="text-lg text-gray-700 mb-6">
+                <p className="text-lg text-brand-700 mb-6">
                   Family owned and operated since 1985, Polo Cleaners has been
                   serving the community with exceptional dry cleaning services
                   for over three decades. Our commitment to quality,
                   convenience, and customer satisfaction has made us the trusted
                   choice for professional garment care.
                 </p>
-                <p className="text-lg text-gray-700 mb-6">
+                <p className="text-lg text-brand-700 mb-6">
                   We use only the finest eco-friendly cleaning products and
                   state-of-the-art equipment to ensure your garments receive the
                   care they deserve. Our experienced team treats every item with
