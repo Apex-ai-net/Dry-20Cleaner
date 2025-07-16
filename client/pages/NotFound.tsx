@@ -49,7 +49,7 @@ export default function NotFound() {
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-6 border border-cream-200">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">
+          <h3 className="text-lg font-semibold text-brand-800 mb-4">
             Popular Pages
           </h3>
           <nav
