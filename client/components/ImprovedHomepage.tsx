@@ -804,7 +804,7 @@ export default function ImprovedHomepage() {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex md:justify-between flex-col md:flex-row items-center">
             <p className="text-gray-400">
-              &copy; 2024 Polo Cleaners. All rights reserved.
+              &copy; 2024 CleanCare Express. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Button
