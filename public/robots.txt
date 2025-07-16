@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://polocleaners.com/sitemap.xml
+Sitemap: https://cleancareexpress.com/sitemap.xml
 
 # Block access to admin areas
 Disallow: /dashboard/
