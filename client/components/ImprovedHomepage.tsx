@@ -653,10 +653,10 @@ export default function ImprovedHomepage() {
                       aria-hidden="true"
                     />
                     <a
-                      href="mailto:info@polocleaners.com"
+                      href="mailto:info@cleancareexpress.com"
                       className="hover:text-brand-700 transition-colors"
                     >
-                      info@polocleaners.com
+                      info@cleancareexpress.com
                     </a>
                   </div>
                   <div className="flex items-start">
