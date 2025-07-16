@@ -100,7 +100,7 @@ export default function Dashboard() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold text-brand-700">
-                PremiumClean
+                Polo Cleaners
               </h1>
               <span className="ml-4 text-gray-500">Customer Dashboard</span>
             </div>
