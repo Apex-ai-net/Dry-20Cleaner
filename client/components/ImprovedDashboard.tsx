@@ -372,7 +372,7 @@ export default function ImprovedDashboard() {
         <CardContent className="space-y-6">
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-brand-700 mb-2">
                 Pickup Date
               </label>
               <input
@@ -381,7 +381,7 @@ export default function ImprovedDashboard() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-brand-700 mb-2">
                 Preferred Time
               </label>
               <select className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-brand-600">
@@ -393,7 +393,7 @@ export default function ImprovedDashboard() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-brand-700 mb-2">
               Services Needed
             </label>
             <div className="space-y-2">
@@ -412,7 +412,7 @@ export default function ImprovedDashboard() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-brand-700 mb-2">
               Special Instructions
             </label>
             <textarea
@@ -576,7 +576,7 @@ export default function ImprovedDashboard() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-brand-700 mb-2">
                 Full Name
               </label>
               <input
@@ -586,7 +586,7 @@ export default function ImprovedDashboard() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-brand-700 mb-2">
                 Email
               </label>
               <input
@@ -596,7 +596,7 @@ export default function ImprovedDashboard() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-brand-700 mb-2">
                 Phone
               </label>
               <input
@@ -615,7 +615,7 @@ export default function ImprovedDashboard() {
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-brand-700 mb-2">
                 Street Address
               </label>
               <input
@@ -626,7 +626,7 @@ export default function ImprovedDashboard() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-brand-700 mb-2">
                   City
                 </label>
                 <input
@@ -636,7 +636,7 @@ export default function ImprovedDashboard() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-brand-700 mb-2">
                   ZIP Code
                 </label>
                 <input
