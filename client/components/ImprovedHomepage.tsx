@@ -603,9 +603,9 @@ export default function ImprovedHomepage() {
                   About CleanCare Express
                 </h2>
                 <p className="text-lg text-brand-700 mb-6">
-                  Family owned and operated since 1985, Polo Cleaners has been
-                  serving the community with exceptional dry cleaning services
-                  for over three decades. Our commitment to quality,
+                  Family owned and operated since 1985, CleanCare Express has
+                  been serving the community with exceptional dry cleaning
+                  services for over three decades. Our commitment to quality,
                   convenience, and customer satisfaction has made us the trusted
                   choice for professional garment care.
                 </p>
