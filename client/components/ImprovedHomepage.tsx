@@ -121,7 +121,7 @@ export default function ImprovedHomepage() {
                       to="/"
                       className="focus:outline-none focus:ring-2 focus:ring-brand-600 rounded"
                     >
-                      Polo Cleaners
+                      CleanCare Express
                     </Link>
                   </h1>
                 </div>
