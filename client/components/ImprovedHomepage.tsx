@@ -78,7 +78,7 @@ export default function ImprovedHomepage() {
       >
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-brand-700 mx-auto mb-4"></div>
-          <p className="text-brand-600">Loading Polo Cleaners...</p>
+          <p className="text-brand-600">Loading CleanCare Express...</p>
         </div>
       </div>
     );
