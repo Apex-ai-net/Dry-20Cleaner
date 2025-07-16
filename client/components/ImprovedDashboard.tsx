@@ -255,20 +255,51 @@ export default function ImprovedDashboard() {
               </Card>
             </aside>
 
-            {/* Main Content */}
+                        {/* Main Content */}
             <div className="flex-1">
-              {/* Welcome Section */}
-              <div className="mb-8">
-                <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                  Welcome back, Sarah!
-                </h2>
-                <p className="text-gray-600">
-                  Manage your dry cleaning orders and preferences
-                </p>
-              </div>
+              {/* Render content based on active section */}
+              {renderActiveSection()}
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
 
-              {/* Quick Actions */}
-              <section aria-labelledby="quick-actions-heading">
+  function renderActiveSection() {
+    switch (activeSection) {
+      case "dashboard":
+        return renderDashboardContent();
+      case "schedule":
+        return renderScheduleContent();
+      case "history":
+        return renderHistoryContent();
+      case "billing":
+        return renderBillingContent();
+      case "profile":
+        return renderProfileContent();
+      case "notifications":
+        return renderNotificationsContent();
+      default:
+        return renderDashboardContent();
+    }
+  }
+
+  function renderDashboardContent() {
+    return (
+      <>
+        {/* Welcome Section */}
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">
+            Welcome back, Sarah!
+          </h2>
+          <p className="text-gray-600">
+            Manage your dry cleaning orders and preferences
+          </p>
+        </div>
+
+        {/* Quick Actions */}
+        <section aria-labelledby="quick-actions-heading">
                 <h3 id="quick-actions-heading" className="sr-only">
                   Quick Actions
                 </h3>
