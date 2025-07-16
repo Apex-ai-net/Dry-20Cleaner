@@ -29,6 +29,13 @@ import { Link } from "react-router-dom";
 export default function Index() {
   return (
     <div className="min-h-screen bg-white">
+      {/* Top Promotional Banner */}
+      <div className="bg-brand-800 text-center py-2">
+        <p className="text-cream-200 text-sm font-medium">
+          First Time Customers Receive 30% Off Their First Order
+        </p>
+      </div>
+
       {/* Navigation */}
       <nav className="bg-cream-50 shadow-sm border-b border-cream-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
