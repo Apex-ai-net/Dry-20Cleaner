@@ -8,10 +8,10 @@ export default function NotFound() {
 
   // Update document title for SEO
   useEffect(() => {
-    document.title = "Page Not Found - Polo Cleaners";
+    document.title = "Page Not Found - CleanCare Express";
     return () => {
       document.title =
-        "Polo Cleaners - Premium Dry Cleaning with Free Pickup & Delivery";
+        "CleanCare Express - Premium Dry Cleaning with Free Pickup & Delivery";
     };
   }, []);
 
