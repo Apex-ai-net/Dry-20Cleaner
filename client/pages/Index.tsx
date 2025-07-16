@@ -30,6 +30,8 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function Index() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Top Promotional Banner */}
