@@ -600,7 +600,7 @@ export default function ImprovedHomepage() {
             <div className="grid md:grid-cols-2 gap-16">
               <div>
                 <h2 className="text-4xl font-bold text-brand-800 mb-6">
-                  About Polo Cleaners
+                  About CleanCare Express
                 </h2>
                 <p className="text-lg text-brand-700 mb-6">
                   Family owned and operated since 1985, Polo Cleaners has been
