@@ -734,7 +734,7 @@ export default function ImprovedDashboard() {
       >
         <div className="text-center max-w-md mx-auto p-6">
           <AlertCircle className="h-12 w-12 text-red-500 mx-auto mb-4" />
-          <h1 className="text-xl font-semibold text-gray-900 mb-2">
+          <h1 className="text-xl font-semibold text-brand-800 mb-2">
             Unable to Load Dashboard
           </h1>
           <p className="text-gray-600 mb-4">{error}</p>
