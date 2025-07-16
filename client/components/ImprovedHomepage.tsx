@@ -313,7 +313,7 @@ export default function ImprovedHomepage() {
             <div className="text-center mb-16">
               <h2
                 id="services-heading"
-                className="text-4xl font-bold text-gray-900 mb-4"
+                className="text-4xl font-bold text-brand-800 mb-4"
               >
                 Our Services
               </h2>
@@ -379,7 +379,7 @@ export default function ImprovedHomepage() {
             <div className="text-center mb-16">
               <h2
                 id="how-it-works-heading"
-                className="text-4xl font-bold text-gray-900 mb-4"
+                className="text-4xl font-bold text-brand-800 mb-4"
               >
                 How It Works
               </h2>
@@ -446,7 +446,7 @@ export default function ImprovedHomepage() {
             <div className="text-center mb-16">
               <h2
                 id="pricing-heading"
-                className="text-4xl font-bold text-gray-900 mb-4"
+                className="text-4xl font-bold text-brand-800 mb-4"
               >
                 Pricing
               </h2>
@@ -526,7 +526,7 @@ export default function ImprovedHomepage() {
             <div className="text-center mb-16">
               <h2
                 id="testimonials-heading"
-                className="text-4xl font-bold text-gray-900 mb-4"
+                className="text-4xl font-bold text-brand-800 mb-4"
               >
                 What Our Customers Say
               </h2>
@@ -599,7 +599,7 @@ export default function ImprovedHomepage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-16">
               <div>
-                <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                <h2 className="text-4xl font-bold text-brand-800 mb-6">
                   About Polo Cleaners
                 </h2>
                 <p className="text-lg text-gray-700 mb-6">
@@ -631,7 +631,7 @@ export default function ImprovedHomepage() {
                 </div>
               </div>
               <div id="contact">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                <h3 className="text-2xl font-bold text-brand-800 mb-6">
                   Contact Information
                 </h3>
                 <address className="space-y-4 mb-8 not-italic">
