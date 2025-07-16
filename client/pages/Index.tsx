@@ -30,12 +30,12 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b">
+      <nav className="bg-cream-50 shadow-sm border-b border-cream-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-primary">
+                <h1 className="text-2xl font-bold text-brand-700">
                   PremiumClean
                 </h1>
               </div>
@@ -44,31 +44,31 @@ export default function Index() {
               <div className="ml-10 flex items-baseline space-x-8">
                 <a
                   href="#services"
-                  className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+                  className="text-brand-700 hover:text-brand-800 px-3 py-2 text-sm font-medium"
                 >
                   Services
                 </a>
                 <a
                   href="#how-it-works"
-                  className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+                  className="text-brand-700 hover:text-brand-800 px-3 py-2 text-sm font-medium"
                 >
                   How It Works
                 </a>
                 <a
                   href="#pricing"
-                  className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+                  className="text-brand-700 hover:text-brand-800 px-3 py-2 text-sm font-medium"
                 >
                   Pricing
                 </a>
                 <a
                   href="#about"
-                  className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+                  className="text-brand-700 hover:text-brand-800 px-3 py-2 text-sm font-medium"
                 >
                   About
                 </a>
                 <a
                   href="#contact"
-                  className="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+                  className="text-brand-700 hover:text-brand-800 px-3 py-2 text-sm font-medium"
                 >
                   Contact
                 </a>
@@ -86,23 +86,23 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-brand-50 to-brand-100 py-20">
+      <section className="bg-gradient-to-br from-cream-50 to-cream-100 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="mb-4">
-                <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-brand-100 text-brand-800">
+                <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-cream-200 text-brand-800">
                   <Star className="w-4 h-4 mr-2" />
                   Family Owned Since 1985
                 </span>
               </div>
-              <h1 className="text-5xl font-bold text-gray-900 mb-6">
+              <h1 className="text-5xl font-bold text-brand-900 mb-6">
                 Premium Dry Cleaning
-                <span className="text-primary block">
+                <span className="text-brand-700 block">
                   Delivered to Your Door
                 </span>
               </h1>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="text-xl text-brand-600 mb-8">
                 Professional cleaning services with free pickup and delivery.
                 Experience the convenience of premium garment care without
                 leaving your home.
@@ -163,8 +163,8 @@ export default function Index() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="text-center">
               <CardHeader>
-                <div className="w-16 h-16 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shirt className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shirt className="w-8 h-8 text-brand-700" />
                 </div>
                 <CardTitle>Dry Cleaning</CardTitle>
                 <CardDescription>
@@ -174,8 +174,8 @@ export default function Index() {
             </Card>
             <Card className="text-center">
               <CardHeader>
-                <div className="w-16 h-16 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Sparkles className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Sparkles className="w-8 h-8 text-brand-700" />
                 </div>
                 <CardTitle>Alterations</CardTitle>
                 <CardDescription>
@@ -185,8 +185,8 @@ export default function Index() {
             </Card>
             <Card className="text-center">
               <CardHeader>
-                <div className="w-16 h-16 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-brand-700" />
                 </div>
                 <CardTitle>Leather Care</CardTitle>
                 <CardDescription>
@@ -196,8 +196,8 @@ export default function Index() {
             </Card>
             <Card className="text-center">
               <CardHeader>
-                <div className="w-16 h-16 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-brand-700" />
                 </div>
                 <CardTitle>Wedding Dress Preservation</CardTitle>
                 <CardDescription>
@@ -210,7 +210,7 @@ export default function Index() {
       </section>
 
       {/* How It Works Section */}
-      <section id="how-it-works" className="py-20 bg-gray-50">
+      <section id="how-it-works" className="py-20 bg-cream-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -222,9 +222,9 @@ export default function Index() {
           </div>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-brand-700 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Calendar className="w-10 h-10 text-white" />
-                <span className="absolute -mt-8 -mr-8 bg-white text-primary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="absolute -mt-8 -mr-8 bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                   1
                 </span>
               </div>
@@ -235,9 +235,9 @@ export default function Index() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-brand-700 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Truck className="w-10 h-10 text-white" />
-                <span className="absolute -mt-8 -mr-8 bg-white text-primary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="absolute -mt-8 -mr-8 bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                   2
                 </span>
               </div>
@@ -248,9 +248,9 @@ export default function Index() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-brand-700 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Sparkles className="w-10 h-10 text-white" />
-                <span className="absolute -mt-8 -mr-8 bg-white text-primary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="absolute -mt-8 -mr-8 bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                   3
                 </span>
               </div>
@@ -261,9 +261,9 @@ export default function Index() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-20 h-20 bg-brand-700 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="w-10 h-10 text-white" />
-                <span className="absolute -mt-8 -mr-8 bg-white text-primary w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="absolute -mt-8 -mr-8 bg-white text-brand-700 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                   4
                 </span>
               </div>
@@ -364,7 +364,7 @@ export default function Index() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-cream-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -473,14 +473,14 @@ export default function Index() {
                 the utmost attention to detail.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                <div className="text-center p-4 bg-brand-50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">39</div>
+                <div className="text-center p-4 bg-cream-100 rounded-lg">
+                  <div className="text-2xl font-bold text-brand-700">39</div>
                   <div className="text-sm text-gray-600">
                     Years of Experience
                   </div>
                 </div>
-                <div className="text-center p-4 bg-brand-50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">50K+</div>
+                <div className="text-center p-4 bg-cream-100 rounded-lg">
+                  <div className="text-2xl font-bold text-brand-700">50K+</div>
                   <div className="text-sm text-gray-600">Happy Customers</div>
                 </div>
               </div>
@@ -491,19 +491,19 @@ export default function Index() {
               </h3>
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
-                  <Phone className="w-5 h-5 text-primary mr-3" />
+                  <Phone className="w-5 h-5 text-brand-700 mr-3" />
                   <span>(555) 123-4567</span>
                 </div>
                 <div className="flex items-center">
-                  <Mail className="w-5 h-5 text-primary mr-3" />
+                  <Mail className="w-5 h-5 text-brand-700 mr-3" />
                   <span>info@premiumclean.com</span>
                 </div>
                 <div className="flex items-center">
-                  <MapPin className="w-5 h-5 text-primary mr-3" />
+                  <MapPin className="w-5 h-5 text-brand-700 mr-3" />
                   <span>123 Main Street, Downtown, NY 10001</span>
                 </div>
                 <div className="flex items-center">
-                  <Clock className="w-5 h-5 text-primary mr-3" />
+                  <Clock className="w-5 h-5 text-brand-700 mr-3" />
                   <div>
                     <p>Mon-Fri: 7:00 AM - 7:00 PM</p>
                     <p>Sat: 8:00 AM - 6:00 PM</p>
@@ -540,7 +540,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-brand-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
