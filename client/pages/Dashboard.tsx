@@ -95,11 +95,13 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Dashboard Navigation */}
-      <nav className="bg-white shadow-sm border-b">
+      <nav className="bg-cream-50 shadow-sm border-b border-cream-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-primary">PremiumClean</h1>
+              <h1 className="text-2xl font-bold text-brand-700">
+                PremiumClean
+              </h1>
               <span className="ml-4 text-gray-500">Customer Dashboard</span>
             </div>
             <div className="flex items-center space-x-4">
@@ -122,7 +124,7 @@ export default function Dashboard() {
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar */}
           <div className="lg:w-64">
-            <Card>
+            <Card className="bg-cream-50">
               <CardContent className="p-6">
                 <div className="space-y-2">
                   <Button variant="ghost" className="w-full justify-start">
@@ -170,7 +172,7 @@ export default function Dashboard() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-12 h-12 bg-brand-700 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Plus className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-semibold mb-2">Schedule Pickup</h3>
@@ -181,29 +183,29 @@ export default function Dashboard() {
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Package className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Package className="w-6 h-6 text-brand-700" />
                   </div>
                   <h3 className="font-semibold mb-2">Active Orders</h3>
-                  <p className="text-2xl font-bold text-primary">2</p>
+                  <p className="text-2xl font-bold text-brand-700">2</p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <CreditCard className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <CreditCard className="w-6 h-6 text-brand-700" />
                   </div>
                   <h3 className="font-semibold mb-2">Current Balance</h3>
-                  <p className="text-2xl font-bold text-primary">$0.00</p>
+                  <p className="text-2xl font-bold text-brand-700">$0.00</p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Clock className="w-6 h-6 text-primary" />
+                  <div className="w-12 h-12 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Clock className="w-6 h-6 text-brand-700" />
                   </div>
                   <h3 className="font-semibold mb-2">Total Orders</h3>
-                  <p className="text-2xl font-bold text-primary">28</p>
+                  <p className="text-2xl font-bold text-brand-700">28</p>
                 </CardContent>
               </Card>
             </div>
