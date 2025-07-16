@@ -43,7 +43,7 @@ export default function Index() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <h1 className="text-2xl font-bold text-brand-700">
-                  PremiumClean
+                  Polo Cleaners
                 </h1>
               </div>
             </div>
@@ -417,7 +417,7 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "I've been using PremiumClean for over 2 years. Their
+                  "I've been using Polo Cleaners for over 2 years. Their
                   attention to detail and customer service is outstanding.
                   Highly recommended!"
                 </p>
@@ -464,10 +464,10 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-16">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                About PremiumClean
+                About Polo Cleaners
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Family owned and operated since 1985, PremiumClean has been
+                Family owned and operated since 1985, Polo Cleaners has been
                 serving the community with exceptional dry cleaning services for
                 over three decades. Our commitment to quality, convenience, and
                 customer satisfaction has made us the trusted choice for
@@ -503,7 +503,7 @@ export default function Index() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-brand-700 mr-3" />
-                  <span>info@premiumclean.com</span>
+                  <span>info@polocleaners.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 text-brand-700 mr-3" />
@@ -551,7 +551,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">PremiumClean</h3>
+              <h3 className="text-xl font-bold mb-4">Polo Cleaners</h3>
               <p className="text-gray-400">
                 Premium dry cleaning services with convenient pickup and
                 delivery since 1985.
@@ -605,7 +605,7 @@ export default function Index() {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex md:justify-between flex-col md:flex-row items-center">
             <p className="text-gray-400">
-              &copy; 2024 PremiumClean. All rights reserved.
+              &copy; 2024 Polo Cleaners. All rights reserved.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Button
